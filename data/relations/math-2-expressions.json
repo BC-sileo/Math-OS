@@ -1,0 +1,183 @@
+{
+  "schema_version": "0.1",
+  "unit": "数学II / いろいろな式",
+  "status": "draft",
+  "relation_types": [
+    "prerequisite",
+    "skill_dependency",
+    "generalization",
+    "application",
+    "representation",
+    "conceptual_link"
+  ],
+  "relations": [
+    {
+      "id": "M2-EX-R01",
+      "from": "M2-EX-PRE-01",
+      "to": "M2-EX-A1",
+      "type": "prerequisite",
+      "rationale": "既習の整式計算が三次の公式の基礎となる"
+    },
+    {
+      "id": "M2-EX-R02",
+      "from": "M2-EX-PRE-01",
+      "to": "M2-EX-A2",
+      "type": "prerequisite",
+      "rationale": "整式の計算が多項式の除法の基礎となる"
+    },
+    {
+      "id": "M2-EX-R03",
+      "from": "M2-EX-PRE-01",
+      "to": "M2-EX-E1",
+      "type": "prerequisite",
+      "rationale": "文字式と方程式の理解が恒等式との区別を支える"
+    },
+    {
+      "id": "M2-EX-R04",
+      "from": "M2-EX-PRE-01",
+      "to": "M2-EX-E2",
+      "type": "prerequisite",
+      "rationale": "等式の性質と式変形が証明の基礎となる"
+    },
+    {
+      "id": "M2-EX-R05",
+      "from": "M2-EX-PRE-01",
+      "to": "M2-EX-E3",
+      "type": "prerequisite",
+      "rationale": "実数の大小と不等式の性質が証明の基礎となる"
+    },
+    {
+      "id": "M2-EX-R06",
+      "from": "M2-EX-A1",
+      "to": "M2-EX-A4",
+      "type": "generalization",
+      "rationale": "二項式の展開を一般の指数へ拡張する"
+    },
+    {
+      "id": "M2-EX-R07",
+      "from": "M2-EX-A1",
+      "to": "M2-EX-B2",
+      "type": "skill_dependency",
+      "rationale": "因数分解が分数式の約分を支える"
+    },
+    {
+      "id": "M2-EX-R08",
+      "from": "M2-EX-A2",
+      "to": "M2-EX-A3",
+      "type": "prerequisite",
+      "rationale": "多項式の除法から剰余の定理を導く"
+    },
+    {
+      "id": "M2-EX-R09",
+      "from": "M2-EX-A2",
+      "to": "M2-EX-D2",
+      "type": "prerequisite",
+      "rationale": "除法の等式を代入して剰余と多項式の値を結ぶ"
+    },
+    {
+      "id": "M2-EX-R10",
+      "from": "M2-EX-D2",
+      "to": "M2-EX-A3",
+      "type": "conceptual_link",
+      "rationale": "多項式の値と剰余の関係が剰余の定理そのもの"
+    },
+    {
+      "id": "M2-EX-R11",
+      "from": "M2-EX-A3",
+      "to": "M2-EX-D3",
+      "type": "prerequisite",
+      "rationale": "剰余の定理から因数定理を導く"
+    },
+    {
+      "id": "M2-EX-R12",
+      "from": "M2-EX-D2",
+      "to": "M2-EX-D3",
+      "type": "prerequisite",
+      "rationale": "P(a)=0を余り0と読み替える"
+    },
+    {
+      "id": "M2-EX-R13",
+      "from": "M2-EX-D3",
+      "to": "M2-EX-D4",
+      "type": "prerequisite",
+      "rationale": "因数定理で高次方程式を因数分解する"
+    },
+    {
+      "id": "M2-EX-R14",
+      "from": "M2-EX-A1",
+      "to": "M2-EX-D4",
+      "type": "skill_dependency",
+      "rationale": "因数分解の技能が高次方程式の解法を支える"
+    },
+    {
+      "id": "M2-EX-R15",
+      "from": "M2-EX-C1",
+      "to": "M2-EX-C2",
+      "type": "prerequisite",
+      "rationale": "実数で解けない方程式が複素数導入の動機となる"
+    },
+    {
+      "id": "M2-EX-R16",
+      "from": "M2-EX-C2",
+      "to": "M2-EX-C3",
+      "type": "prerequisite",
+      "rationale": "複素数の定義から相等・演算を定める"
+    },
+    {
+      "id": "M2-EX-R17",
+      "from": "M2-EX-C3",
+      "to": "M2-EX-C4",
+      "type": "conceptual_link",
+      "rationale": "共役複素数は複素数の演算から導入される"
+    },
+    {
+      "id": "M2-EX-R18",
+      "from": "M2-EX-C2",
+      "to": "M2-EX-C5",
+      "type": "prerequisite",
+      "rationale": "複素数の範囲で二次方程式の解を扱う"
+    },
+    {
+      "id": "M2-EX-R19",
+      "from": "M2-EX-C3",
+      "to": "M2-EX-C5",
+      "type": "skill_dependency",
+      "rationale": "複素数の演算が解の表現を支える"
+    },
+    {
+      "id": "M2-EX-R20",
+      "from": "M2-EX-C5",
+      "to": "M2-EX-D1",
+      "type": "conceptual_link",
+      "rationale": "二次方程式の解の表現を踏まえ解と係数を結ぶ"
+    },
+    {
+      "id": "M2-EX-R21",
+      "from": "M2-EX-E1",
+      "to": "M2-EX-E2",
+      "type": "prerequisite",
+      "rationale": "恒等式の意味が等式証明の対象を明確にする"
+    },
+    {
+      "id": "M2-EX-R22",
+      "from": "M2-EX-E2",
+      "to": "M2-EX-A1",
+      "type": "application",
+      "rationale": "展開公式の成立を等式として証明する"
+    },
+    {
+      "id": "M2-EX-R23",
+      "from": "M2-EX-E2",
+      "to": "M2-EX-A2",
+      "type": "application",
+      "rationale": "多項式の除法の計算過程の正当性を説明する"
+    },
+    {
+      "id": "M2-EX-R24",
+      "from": "M2-EX-E3",
+      "to": "M2-EX-B3",
+      "type": "application",
+      "rationale": "不等式の性質を分数式の比較にも応用する"
+    }
+  ]
+}
