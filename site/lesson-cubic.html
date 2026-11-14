@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#0b1120"><title>三次の展開・因数分解 | Math-OS</title><link rel="stylesheet" href="./styles.css"><link rel="stylesheet" href="./lesson.css"></head>
+<body><header class="topbar"><a class="brand" href="./"><span class="brand-mark">M</span><span>Math-OS</span></a><a class="back" href="./">← 単元マップ</a></header>
+<main class="lesson-shell">
+  <div class="crumb">数学II <span>/</span> いろいろな式 <span>/</span> 01</div>
+  <p class="eyebrow">CONCEPT 01 · REPRESENTATION</p>
+  <h1>三次の展開・<br>因数分解</h1>
+  <p class="lead">展開と因数分解は、別々の公式ではない。<b>同じ式を、積の形と和の形で表し直す操作</b>だ。</p>
+  <div class="goal"><span>このレッスンの到達点</span><b>公式を再現するだけでなく、分配法則から導き、逆向きにも使える。</b></div>
+
+  <section class="lesson-section">
+    <div class="step-label">01 / 予測する</div><h2>まず、何が起きるか予想しよう。</h2>
+    <p>次の積を展開すると、どんな項が現れるだろう？ 公式はまだ見ずに考えてみてほしい。</p>
+    <div class="formula-card"><span class="formula-caption">QUESTION</span><div class="formula">(a+b)³ = ?</div></div>
+    <div class="choices" id="choices">
+      <button class="choice" data-answer="a">a³ + b³</button>
+      <button class="choice" data-answer="b">a³ + 3a²b + 3ab² + b³</button>
+      <button class="choice" data-answer="c">a³ + 2a²b + 2ab² + b³</button>
+    </div>
+    <p class="feedback" id="feedback" aria-live="polite">選択すると、理由を確認できます。</p>
+  </section>
+
+  <section class="lesson-section">
+    <div class="step-label">02 / 構造を見る</div><h2>なぜ係数が 1, 3, 3, 1 になる？</h2>
+    <p>(a+b)³ は、(a+b)(a+b)(a+b) のこと。各かっこから a または b を一つずつ選んで掛ける。</p>
+    <div class="expansion">
+      <div class="exp-row"><span class="term">a³</span><span class="count">aaa の1通り</span></div>
+      <div class="exp-row"><span class="term">a²b</span><span class="count">aab, aba, baa の3通り</span></div>
+      <div class="exp-row"><span class="term">ab²</span><span class="count">abb, bab, bba の3通り</span></div>
+      <div class="exp-row"><span class="term">b³</span><span class="count">bbb の1通り</span></div>
+    </div>
+    <p class="insight">係数は暗記する数字ではなく、同じ項が何通りの選び方で生じるかを数えたもの。</p>
+  </section>
+
+  <section class="lesson-section">
+    <div class="step-label">03 / 一般化する</div><h2>分配法則から公式を得る。</h2>
+    <div class="derivation">
+      <div><small>出発点</small><code>(a+b)³ = (a+b)(a+b)(a+b)</code></div>
+      <div><small>まず2つを展開</small><code>= (a²+2ab+b²)(a+b)</code></div>
+      <div><small>もう一度分配</small><code>= a³+a²b+2a²b+2ab²+ab²+b³</code></div>
+      <div class="result"><small>同類項をまとめる</small><code>= a³+3a²b+3ab²+b³</code></div>
+    </div>
+    <p>因数分解はこの逆操作。右辺を見て、左辺の積の形に戻せる。</p>
+  </section>
+
+  <section class="lesson-section">
+    <div class="step-label">04 / 自分で使う</div><h2>今度は、逆向きに見抜こう。</h2>
+    <p>次の式は、どの積の形に戻る？</p>
+    <div class="formula-card"><span class="formula-caption">TRY</span><div class="formula">x³ − 3x² + 3x − 1</div></div>
+    <div class="input-row"><label for="factor-answer">因数分解した形</label><input id="factor-answer" placeholder="例： (x-1)^3" autocomplete="off"><button id="check-factor">確認</button></div>
+    <p class="feedback" id="factor-feedback" aria-live="polite">答えを入力して確認しよう。</p>
+  </section>
+
+  <section class="lesson-section recall">
+    <div class="step-label">05 / 想起する</div><h2>最後に、画面を見ずに説明してみよう。</h2>
+    <p>係数 3 が現れる理由を、自分の言葉で説明できる？</p>
+    <textarea id="recall" rows="3" placeholder="自分の説明を書いてみる…"></textarea>
+    <button class="reveal" id="show-recall">確認ポイントを表示</button>
+    <div class="recall-key" id="recall-key" hidden>3通りの選び方があるから。例えば a²b は、3つのかっこのうち、どの1つから b を選ぶかで3通り生じる。</div>
+  </section>
+  <footer><a href="./">← 単元マップへ戻る</a><span>Math-OS · 学習プロトタイプ</span></footer>
+</main><script src="./lesson.js"></script></body></html>
