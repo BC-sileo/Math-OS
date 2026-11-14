@@ -1,0 +1,322 @@
+{
+  "schema_version": "0.1",
+  "course": "数学II",
+  "unit": "いろいろな式",
+  "status": "draft",
+  "source_scope": {
+    "official": "文部科学省『高等学校学習指導要領（平成30年告示）解説 数学編・理数編』第2章 数学II (1) いろいろな式",
+    "url": "https://www.mext.go.jp/content/20260115-mxt_kyoiku02-100002620_04.pdf",
+    "note": "course_tags and official_scope distinguish curriculum placement from Math-OS structural interpretation."
+  },
+  "concepts": [
+    {
+      "id": "M2-EX-PRE-01",
+      "title": "整式の計算と因数分解の前提",
+      "kind": "prerequisite_bundle",
+      "course_tags": [
+        "数学I"
+      ],
+      "theme_tags": [
+        "数・代数・式"
+      ],
+      "status": "draft",
+      "summary": "整式の加減乗除、分配法則、基本的な因数分解を確認する。数学I「数と式」は既習を前提に、必要箇所だけ診断・補完する。",
+      "content_path": "content/math-2/expressions/prerequisites.md"
+    },
+    {
+      "id": "M2-EX-A1",
+      "title": "三次の展開公式・因数分解",
+      "kind": "concept",
+      "course_tags": [
+        "数学II"
+      ],
+      "theme_tags": [
+        "数・代数・式",
+        "表現変換"
+      ],
+      "official_scope": "knowledge_skill",
+      "status": "draft",
+      "summary": "三次の乗法公式と因数分解公式を理解し、展開と因数分解を相互に扱う。",
+      "content_path": "content/math-2/expressions/cubic-identities.md"
+    },
+    {
+      "id": "M2-EX-A2",
+      "title": "多項式の除法",
+      "kind": "concept",
+      "course_tags": [
+        "数学II"
+      ],
+      "theme_tags": [
+        "数・代数・式"
+      ],
+      "official_scope": "knowledge_skill",
+      "status": "draft",
+      "summary": "被除式を除式×商+余りの形に表す多項式の除法を理解する。",
+      "content_path": "content/math-2/expressions/polynomial-division.md"
+    },
+    {
+      "id": "M2-EX-A3",
+      "title": "剰余の定理",
+      "kind": "supporting_theorem",
+      "course_tags": [
+        "数学II"
+      ],
+      "theme_tags": [
+        "数・代数・式",
+        "関数・対応・表現"
+      ],
+      "official_scope": "supporting",
+      "status": "draft",
+      "summary": "x-aで割った余りと多項式の値P(a)を結び付ける補助定理。",
+      "content_path": "content/math-2/expressions/remainder-theorem.md"
+    },
+    {
+      "id": "M2-EX-A4",
+      "title": "二項定理",
+      "kind": "terminology_and_extension",
+      "course_tags": [
+        "数学II"
+      ],
+      "theme_tags": [
+        "数・代数・式",
+        "離散数学・数え上げ"
+      ],
+      "official_scope": "terminology_symbol",
+      "status": "draft",
+      "summary": "二項式の累乗の係数を一般化する。学習指導要領上の用語・記号の位置づけを保持し、必須技能と区別する。",
+      "content_path": "content/math-2/expressions/binomial-theorem.md"
+    },
+    {
+      "id": "M2-EX-B1",
+      "title": "分数式の意味と定義域",
+      "kind": "concept",
+      "course_tags": [
+        "数学II"
+      ],
+      "theme_tags": [
+        "数・代数・式",
+        "数学的な言語・論理"
+      ],
+      "official_scope": "knowledge_skill",
+      "status": "draft",
+      "summary": "分子・分母が多項式である分数式と、分母が0にならない条件を理解する。",
+      "content_path": "content/math-2/expressions/rational-expressions.md"
+    },
+    {
+      "id": "M2-EX-B2",
+      "title": "分数式の約分・通分",
+      "kind": "skill",
+      "course_tags": [
+        "数学II"
+      ],
+      "theme_tags": [
+        "数・代数・式"
+      ],
+      "official_scope": "knowledge_skill",
+      "status": "draft",
+      "summary": "分数の性質を式に拡張し、定義域を保ちながら同値な式に変形する。",
+      "content_path": "content/math-2/expressions/rational-expressions.md"
+    },
+    {
+      "id": "M2-EX-B3",
+      "title": "分数式の四則計算",
+      "kind": "skill",
+      "course_tags": [
+        "数学II"
+      ],
+      "theme_tags": [
+        "数・代数・式"
+      ],
+      "official_scope": "knowledge_skill",
+      "status": "draft",
+      "summary": "分数式の加減乗除を、定義域条件に注意して行う。",
+      "content_path": "content/math-2/expressions/rational-expressions.md"
+    },
+    {
+      "id": "M2-EX-C1",
+      "title": "実数の範囲で解けない二次方程式",
+      "kind": "motivation",
+      "course_tags": [
+        "数学II"
+      ],
+      "theme_tags": [
+        "数・代数・式",
+        "数学的な言語・論理"
+      ],
+      "official_scope": "motivation",
+      "status": "draft",
+      "summary": "実数の範囲で解を持たない二次方程式から数の拡張の必要性を捉える。",
+      "content_path": "content/math-2/expressions/complex-numbers.md"
+    },
+    {
+      "id": "M2-EX-C2",
+      "title": "複素数の定義と表記",
+      "kind": "concept",
+      "course_tags": [
+        "数学II"
+      ],
+      "theme_tags": [
+        "数・代数・式"
+      ],
+      "official_scope": "knowledge_skill",
+      "status": "draft",
+      "summary": "i²=-1を満たす虚数単位iを導入し、a+biの形で複素数を表す。",
+      "content_path": "content/math-2/expressions/complex-numbers.md"
+    },
+    {
+      "id": "M2-EX-C3",
+      "title": "複素数の相等・四則演算",
+      "kind": "skill",
+      "course_tags": [
+        "数学II"
+      ],
+      "theme_tags": [
+        "数・代数・式"
+      ],
+      "official_scope": "knowledge_skill",
+      "status": "draft",
+      "summary": "実部・虚部による相等と、複素数の四則演算を理解する。",
+      "content_path": "content/math-2/expressions/complex-numbers.md"
+    },
+    {
+      "id": "M2-EX-C4",
+      "title": "共役複素数",
+      "kind": "supporting_concept",
+      "course_tags": [
+        "数学II"
+      ],
+      "theme_tags": [
+        "数・代数・式"
+      ],
+      "official_scope": "supporting",
+      "status": "draft",
+      "summary": "複素数の除法や性質を整理する補助概念として扱う。",
+      "content_path": "content/math-2/expressions/complex-numbers.md"
+    },
+    {
+      "id": "M2-EX-C5",
+      "title": "二次方程式の解の判別",
+      "kind": "concept",
+      "course_tags": [
+        "数学II"
+      ],
+      "theme_tags": [
+        "数・代数・式",
+        "関数・対応・表現"
+      ],
+      "official_scope": "knowledge_skill",
+      "status": "draft",
+      "summary": "判別式と解の種類の関係を、複素数まで拡張した数の範囲で理解する。",
+      "content_path": "content/math-2/expressions/quadratic-equations.md"
+    },
+    {
+      "id": "M2-EX-D1",
+      "title": "解と係数の関係",
+      "kind": "theorem",
+      "course_tags": [
+        "数学II"
+      ],
+      "theme_tags": [
+        "数・代数・式"
+      ],
+      "official_scope": "knowledge_skill",
+      "status": "draft",
+      "summary": "二次方程式の解の和・積と係数の関係を理解する。",
+      "content_path": "content/math-2/expressions/quadratic-equations.md"
+    },
+    {
+      "id": "M2-EX-D2",
+      "title": "多項式の値と剰余",
+      "kind": "concept",
+      "course_tags": [
+        "数学II"
+      ],
+      "theme_tags": [
+        "数・代数・式",
+        "関数・対応・表現"
+      ],
+      "official_scope": "supporting",
+      "status": "draft",
+      "summary": "多項式の除法と代入を結び付け、剰余の定理を導く。",
+      "content_path": "content/math-2/expressions/remainder-theorem.md"
+    },
+    {
+      "id": "M2-EX-D3",
+      "title": "因数定理",
+      "kind": "theorem",
+      "course_tags": [
+        "数学II"
+      ],
+      "theme_tags": [
+        "数・代数・式"
+      ],
+      "official_scope": "knowledge_skill",
+      "status": "draft",
+      "summary": "P(a)=0であることとx-aがP(x)の因数であることの同値性を理解する。",
+      "content_path": "content/math-2/expressions/factor-theorem.md"
+    },
+    {
+      "id": "M2-EX-D4",
+      "title": "高次方程式",
+      "kind": "concept",
+      "course_tags": [
+        "数学II"
+      ],
+      "theme_tags": [
+        "数・代数・式"
+      ],
+      "official_scope": "knowledge_skill",
+      "status": "draft",
+      "summary": "因数定理などを用いて、簡単な高次方程式を解く。",
+      "content_path": "content/math-2/expressions/higher-degree-equations.md"
+    },
+    {
+      "id": "M2-EX-E1",
+      "title": "恒等式と方程式の違い",
+      "kind": "concept",
+      "course_tags": [
+        "数学II"
+      ],
+      "theme_tags": [
+        "数学的な言語・論理",
+        "数・代数・式"
+      ],
+      "official_scope": "supporting",
+      "status": "draft",
+      "summary": "恒等式と、特定の値を求める方程式を区別する。",
+      "content_path": "content/math-2/expressions/proofs.md"
+    },
+    {
+      "id": "M2-EX-E2",
+      "title": "等式の証明",
+      "kind": "reasoning",
+      "course_tags": [
+        "数学II"
+      ],
+      "theme_tags": [
+        "数学的な言語・論理",
+        "数・代数・式"
+      ],
+      "official_scope": "thinking_judgment_expression",
+      "status": "draft",
+      "summary": "等式の性質に基づき、等式が成り立つことを論理的に示す。",
+      "content_path": "content/math-2/expressions/proofs.md"
+    },
+    {
+      "id": "M2-EX-E3",
+      "title": "不等式の証明",
+      "kind": "reasoning",
+      "course_tags": [
+        "数学II"
+      ],
+      "theme_tags": [
+        "数学的な言語・論理",
+        "数・代数・式"
+      ],
+      "official_scope": "thinking_judgment_expression",
+      "status": "draft",
+      "summary": "実数の大小・不等式の性質に基づき、不等式を論理的に示す。",
+      "content_path": "content/math-2/expressions/proofs.md"
+    }
+  ]
+}
