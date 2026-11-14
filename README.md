@@ -29,6 +29,10 @@ Math-OS が担うのは、学習の第1段階である「基礎理解・基礎�
 - [コンテンツ作成基準](docs/content-standard.md)
 - [知識体系・データ設計](docs/architecture.md)
 - [高校数学カリキュラムマップ（草案）](docs/curriculum-map.md)
+- [数学II「いろいろな式」概念構造](docs/math-2-expressions-map.md)
+- [数学II「いろいろな式」単元設計](content/math-2/expressions/README.md)
+- [概念ノードデータ](data/concepts/math-2-expressions.json)
+- [概念関係データ](data/relations/math-2-expressions.json)
 
 ## 現在の状態
 
